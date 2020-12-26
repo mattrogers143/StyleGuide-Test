@@ -1,0 +1,265 @@
+/* UNIVERSAL STYLES =========================================================*/
+* {
+  font-family: monospace;
+}
+
+
+/* EVERYTHING ELSE ==========================================================*/
+h1 /*Site Title */{
+  font-size: 92px;
+  font-weight: normal;
+  text-align: center;
+}
+h2 /* Section Headings */{
+  font-size: 70px;
+  font-weight: normal;
+  margin: 20px 20px 50px 20px;
+  width: 750px;
+}
+h3, strong {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+strong {
+  text-decoration: underline;
+}
+p {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.style-heading {
+}
+
+section {
+  border: 4px solid black;
+  border-radius: 20px;
+  margin: 30px auto;
+  width: 836px;
+}
+#colors {}        /* 01. COLORS */
+  .colors-grid {
+    display: flex;
+    align-content: center;
+  }
+  .color-card {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 220px;
+    margin: 0 0 20px 20px;
+    width: 250px;
+  }
+  .color-hex {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 100px;
+    margin-top: -20px;
+  }
+  .color-hex h3 {
+    padding-top: 22px;
+    text-align: center;
+  }
+  .color-description {
+    border-top: 1px solid black;
+    padding: 0px 15px;
+  }
+  .charcoal {
+    background-color: #2D2E30;
+    color: white;
+  }
+  .olive {
+    background-color: #50A38C;
+    color: white;
+  }
+  .mint {
+    background-color: #69F0CA;
+    color: #2D2E30;
+  }
+  .pumpkin {
+    background-color: #F0A85D;
+    color: #2D2E30;
+  }
+  .navy {
+    background-color: #2F47A3;
+    color: white;
+  }
+  .periwinkle {
+    background-color: #5172F0;
+    color: white;
+  }
+#fonts {}         /* 02. FONTS */
+  .font-card {
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    height: 125px;
+    margin: 0 0 20px 20px;
+    width: 792px;
+  }
+  .font-name {
+    text-align: center;
+    width: 200px;
+  }
+  h3.jura,
+  h3.maitree {
+    font-size: 30px;
+    padding-top: 8px;
+  }
+  h3.bungee {
+    font-size: 30px;
+    padding-top: 0px;
+    margin: 19px 0px;
+  }
+  .font-details,
+  .font-description {
+    border-left: 1px solid black;
+    padding: 0px 18px;
+  }
+  .font-details {
+    width: 400px;
+  }
+  .font-description {
+    width: 150px;
+  }
+  .font-description p {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .bungee {
+    font-family: "Bungee Outline";
+    font-size: 16px;
+  }
+  .jura {
+    font-family: "Jura";
+    font-size: 16px;
+  }
+  .maitree {
+    font-family: "Maitree";
+    font-size: 16px;
+  }
+  .font-normal {
+    font-weight: normal;
+  }
+  .font-italic {
+    font-style: italic;
+  }
+  .font-bold {
+    font-weight: bold;
+  }
+#text {}          /* 03. TEXT */
+  #text p,
+  #text li {
+    padding-left: 20px;
+  }
+  .text-element {
+    margin-bottom: 50px;
+  }
+  .text-element h1 {
+    background-color: #50A38C;
+    color: white;
+    font-family: Bungee Outline;
+    font-size: 92px;
+    font-weight: 700;
+    margin: 12px;
+    max-width: 70%;
+    padding: 23px;
+    text-align: center;
+  }
+  .text-element h2 {
+    background-color: #50A38C;
+    color: white;
+    font-family: Bungee Outline;
+    font-size: 70px;
+    font-weight: 400;
+    margin: 12px;
+    padding: 14px;
+    text-align: left;
+  }
+  .text-element h3 {
+    background-color: #5172F0;
+    color: white;
+    font-family: Jura;
+    font-size: 30px;
+    font-stretch: expanded;
+    font-weight: 400;
+    margin: 12px;
+    padding: 10px 10px 10px 50px;
+    text-align: left;
+    text-transform: lowercase;
+  }
+  .text-row {
+    display: flex;
+    justify-content: center;
+  }
+  .text-element h4 {
+    font-family: Maitree;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-right: 150px;
+    padding: 14px;
+    text-align: left;
+  }
+  .text-element h5 {
+    font-family: Jura;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px;
+    text-transform: uppercase;
+  }
+#buttons {}       /* 04. BUTTONS */
+  .p-center {
+    padding-left: 250px;
+  }
+  .buttons-grid {
+    display: flex;
+  }
+  .button-card {
+    margin: 0 0 20px 20px;
+    width: 400px;
+  }
+  button {
+    cursor: pointer;
+    font-family: Jura;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 20px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .primary {
+    background: #69F0CA;
+    border: 3px solid #42967F;
+    border-radius: 25px;
+    box-shadow: 0px 3px 7px;
+    transition: all 200ms linear;
+  }
+  .primary:hover {
+    background: #42967F;
+    border: 3px solid #285C4D;
+    color: white;
+  }
+  .primary:active {
+    background: #F0A85D;
+    border: 3px solid #AD7A44;
+    color: black;
+  }
+  .secondary {
+    background: #F0A85D;
+    border: 3px solid #AD7A44;
+    border-radius: 25px;
+    box-shadow: 0px 3px 7px;
+    transition: all 200ms linear;
+  }
+  .secondary:hover {
+    background: #AD7A44;
+    border: 3px solid #78552F;
+    color: white;
+  }
+  .secondary:active {
+    background: #69F0CA;
+    border: 3px solid #42967F;
+    color: black;
+  }
